@@ -23,3 +23,5 @@ system("wmctrl -s 0") # retour à l'espace de travail 0, il ne reste plus qu'à 
 
 # spotify et discord font chier quand on les ouvre dans un terminal, le terminal ne passe pas à la ligne suivante et si on fait ctrl+c pour annuler le programme, ça ferme aussi Discord et Spotify
 # Impossible sur Ubuntu de passer du workspace 1 au 3 par exemple s'il n'y a rien d'ouvert sur le workspace 2
+# N'oubliez pas de créer un alias dans votre .zshrc ! Voici la ligne que j'ai du rajouter pour mon pc :
+# alias thpgo="ruby /home/lifeae/Dropbox/thehackingproject/S2/J5/lib/thpgo.rb"
